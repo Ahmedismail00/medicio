@@ -1,0 +1,131 @@
+@charset "utf-8";
+*{box-sizing: border-box ; margin: 0px ; padding: 0px}
+p{font-weight: lighter}
+.notfull{max-width: 1150px ; margin: auto}
+html, body {
+	animation-delay: 4s;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+#div1{background-color: #3FBBC0; color:aliceblue ; padding: 15px ; ; height: 60px }
+#div1 #div1-2{ float: right}
+
+#div2{background-color: white}
+#div2 form{margin-left: 200px ; }
+
+#fixedtop{ position: sticky ; top: 0 ; z-index: 6666}
+#div3{min-height: 600px ; max-height: auto ; background-image: url("img/dummy/bg1.jpg") ; background-repeat: no-repeat ; background-size: cover}
+#div3-1 {margin-top: 50px ; padding: 30px 0px 0px 50px}
+#div3-1 #div3-1-2 {height: 300px ; width: 550px ; background-color:rgba(252,252,251,.8) ; z-index: 666 ; padding: 20px ;border-radius: 5px}
+#div3-1 #div3-1-2 .icon {float: left ; width: 35px ; margin: 15px 15px 0px 0px ; color: green}
+#div3-1 #div3-1-2 button {float: right ; background-color:#3FBBC0 ; border: none ; color: #F4F4F4 ; font-size: 20px ; padding: 7px 10px ; border-radius: 10px }
+#div3-2 img{margin: 50px 0px 0px 80px ; width: 550px}
+
+
+#div4{text-align: center ; min-height: 250px ; max-height: auto ; margin: 100px 0px}
+#div4 .icon{color: whitesmoke ; background-color: #3FBBC0 ; width: 100px ; min-height: 100px ; max-height: auto ; padding: 18px ; border-radius: 50px}
+
+#div5 {min-height: 110px ; max-height: auto ; margin-bottom: 70px ; background-color: #FAFAFA ; padding: 18px 50px ; border-radius: 5px}
+#div5 button {position: relative; left: 350px ; top: 16px ; background-color:#3FBBC0 ; border: none ; color: #F4F4F4 ; font-size: 20px ; padding: 7px 10px ; border-radius: 10px ;}
+
+#div6{margin-top: 50px}
+#div6-2{}
+#div6-2{margin-top: 40px}
+#div6-2 .icon{float: left ; width: 35px; margin: 10px 18px 0px 0px ; min-height: 50px ; max-height: auto ; color: #3FBBC0}
+
+#div7{text-align: center ; margin-bottom: 25px ; padding-top: 20px}
+#div7 hr { width: 100px ;}
+
+#div78{background-color: #FAFAFA ; border-radius: 5px}
+
+#div8{width: 100% ; min-height: 110px ; max-height: auto ; }
+#div8-1{position: absolute ; margin-left: 30px}
+#div8-1 button{ margin: 0px 5px 50px 0px ; background-color: #3FBBC0 ; color: #ffffff }
+#div8-2{margin-top: 60px ; padding: 0px 22px}
+#div8-2 img{ width: 270px ; padding: 10px ; margin-right: 2px}
+#div8-2 p, #div8-2 h5{text-align: center}
+#div8-2 h5{color: #3FBBC0 }
+
+#div9{text-align: center ; margin: 40px 0px 25px 0px}
+#div9 hr { width: 100px ;}
+
+#div10{}
+
+
+#div11{min-height: 700px ; max-height: auto ; margin-top: 50px ; background-image: url("img/parallax/1.jpg") ; padding: 100px 50px 50px 50px }
+#div11 img{border-radius: 200px ; width: 200px ; margin-left: 140px}
+#div11 .pp{font-size: 20px}
+.rate{margin-right: 20px}
+.speech-bubble {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    padding: 20px;
+    position: relative;
+}
+.speech-bubble::after {
+    border-left: 20px solid transparent;
+    border-top: 20px solid #efefef;
+    bottom: -20px;
+    content: "";
+    position: absolute;
+    right: 200px;
+}
+
+
+#div12{text-align: center ; ; margin-top: 50px}
+#div12 hr { width: 100px ; }
+
+#div13{text-align: center ; ;}
+#div13 #div13-1, #div13-2, #div13-3{padding:0px ;  }
+#div13 .div13{ margin-top: 30px ; width: 330px ; min-height: 570px ;max-height: auto ; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#div13 #div13-2{ box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); z-index: 666}
+#div13 .sortofpackage{min-height: 70px ; max-height: auto ; padding-top: 22px ;background-color: #676767 ; color: white ;}
+#div13 .price{color: white ; background-color: #454545 ; min-height: 95px ; max-height: auto ; padding: 30px}
+#div13 #centersort{background-color: #40BBC0}
+#div13 #centerprice{background-color: #4BCCD1 ; padding: 40px ; min-height: 125px ; max-height: auto ;}
+#div13 .col-4 h3 span {font-weight: 300; font-size: 18px;}
+#div13 button{background-color:#4BCCD1 ; border: none ; color: #F4F4F4 ; font-size: 17px ; padding: 8px 15px ; border-radius: 10px }
+#div13 .buttonbg{background-color: #F7F7F7  ; padding: 20px}
+#div13 #centerbuttonbg{background-color: #40BBC0}
+#div13 ol{list-style: none ; padding: 20px}
+#div13 ol li {padding: 20px 10px 10px}
+#div13 .icon{width: 35px}
+#div13 li span{text-decoration: line-through ; color: grey}
+
+#div14{text-align: center ; margin: 50px 0px; }
+#div14 #div14-1 hr { width: 100px ;}
+
+#div15{min-height: 330px ; max-height: auto ; background-color: #F2F2F2 ; padding: 40px ; border-radius: 5px}
+.div15{width: 350px}
+#div15-1 ol{list-style-type: none ; margin: 0px ; padding: 10px ; padding: 0px}
+#div15-2 .fa{float: left ; width: 0px  ; background-color:#676767 }
+#div15-2 .text {margin-left: 45px}
+#div15 #div15-3 .fab{ color: white ; width: auto ; padding: 12px ; font-size: 15px ; border-radius: 5px}
+#div15 .icon1{background-color: #4267B2}
+#div15 .icon2{background-color:#1C9FF0}
+#div15 .icon3{background-color:#FF0303}
+#div15 .icon4{background-color:#34445A}
+#div15 .div15-space{margin-top: 35px}
+
+#div16{padding: 30px 0px ; margin-top: 10px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
